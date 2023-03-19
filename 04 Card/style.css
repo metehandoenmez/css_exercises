@@ -1,0 +1,32 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box {
+    border:1px solid rgb(207, 207, 207);
+    padding: 0px;
+    width: 300px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+.box img {
+width: 300px;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px ;
+}
+
+.box h2 {
+    padding-left: 15px;
+}
+
+.box p {
+    padding-left: 15px;
+}
+
+.box a {
+    padding-left: 15px;
+}
+
+.box hr {
+    border-top: 1px solid rgb(207, 207, 207);
+}
