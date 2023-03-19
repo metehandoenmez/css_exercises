@@ -5,21 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar Test</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
-        <b>Navbar</b> &nbsp;
-        <a href="#home">Home</a> &nbsp;
-        <a href="#link">Link</a> &nbsp;
-      <select name="Dropdown">
-        <option value="">Dropdown</option>
-        <option value="Link 1"> <a href="#carreer">Carreer</a> </option>
-        <option value="Link 2"> <a href="#staff">Staff</a> </option>
-      </select>
-      &nbsp;
-        <button disabled="true">Disabled</button>
-        &nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;
-        <input type="text" placeholder="Search"> <button>Search</button>
+        <b class="navbartext">Navbar</b>
+        <a href="#home">Home</a>
+        <a href="#link">Link</a>
+
+        <div class="dropdown">
+
+      <ul name="Dropdown">
+        <li value="">Dropdown</li>
+        <li value="Link 1"> <a href="#career">Career</a> </li>
+        <li value="Link 2"> <a href="#staff">Staff</a> </li>
+      </ul>
+
+        </div>
+
+        <button id="disabled" disabled="true">Disabled</button>
+        
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+
+        <div class="hamburger_menu">
+            <hr>
+            <hr>
+            <hr>
+        </div>
+        
       </nav>
 </body>
 </html>
