@@ -1,0 +1,100 @@
+body {
+    background-color: darkslategray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    width: 500px;
+    height: 600px;
+    margin: 50px 50px 0px 50px;
+    border: 1px solid gray;
+     background-color: rgb(239, 242, 245);
+     grid-auto-flow: row;
+     grid-template-areas:
+       "result result result result"
+       "add subtract multiply divide"
+       "seven eight nine equals"
+       "four five six equals"
+       "one two three equals"
+       "zero point allclear equals";
+       border-radius: 30px;
+  }
+  
+  .result {
+  padding: 10px;
+  background-color: rgb(66, 76, 82);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  font-size:60px;
+  grid-area:result;
+  color:rgb(255, 255, 255);
+    border: 3px solid #ccc;
+}
+
+.add { grid-area: add;color:black;
+    border: 3px solid #ccc; background-color:rgb(179, 188, 194); }
+
+.subtract { grid-area: subtract;color:black;
+    border: 3px solid #ccc;background-color:rgb(179, 188, 194); }
+
+.multiply { grid-area: multiply;color:black;
+    border: 3px solid #ccc;background-color:rgb(179, 188, 194);}
+
+.divide { grid-area: divide;color:black;
+    border: 3px solid #ccc;background-color:rgb(179, 188, 194); }
+
+.seven { grid-area: seven; color:black;
+  border: 1px solid #ccc; }
+
+.eight { grid-area: eight;color:black;
+  border: 1px solid #ccc; }
+
+.nine { grid-area: nine;color:black;
+  border: 1px solid #ccc; }
+
+.four { grid-area: four;color:black;
+  border: 1px solid #ccc; }
+
+.five { grid-area: five;color:black;
+  border: 1px solid #ccc; }
+
+.six { grid-area: six;color:black;
+  border: 1px solid #ccc; }
+
+.one { grid-area: one;color:black;
+  border: 1px solid #ccc; }
+
+.two { grid-area: two;color:black;
+  border: 3px solid #ccc; }
+
+.three { grid-area: three;color:black;
+  border: 3px solid #ccc; }
+
+.equals { grid-area: equals;color:black;
+    border: 3px solid #ccc; background-color: rgb(247, 112, 119);
+    border-bottom-right-radius: 30px; }
+
+.zero { grid-area: zero;color:black;
+    border: 3px solid #ccc;
+    border-bottom-left-radius: 30px; }
+
+.point { grid-area: point;color:black;
+    border: 3px solid #ccc; }
+
+.allclear { grid-area: allclear;color:black;
+    border: 3px solid #ccc; }
+.calculator > * {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.result {
+        display: flex;
+        align-items: end;
+        justify-content: flex-end;
+}
