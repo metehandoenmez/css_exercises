@@ -1,10 +1,11 @@
 body {
-    background-color: darkslategray;
-    color: white;
+    display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 36px;
+    justify-content: center;
 }
+
 .calculator {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -33,61 +34,61 @@ body {
   font-size:60px;
   grid-area:result;
   color:rgb(255, 255, 255);
-    border: 3px solid #ccc;
 }
 
 .add { grid-area: add;color:black;
-    border: 3px solid #ccc; background-color:rgb(179, 188, 194); }
+    border: 2px solid #4b4e52; background-color:rgb(179, 188, 194); }
 
 .subtract { grid-area: subtract;color:black;
-    border: 3px solid #ccc;background-color:rgb(179, 188, 194); }
+    border: 2px solid #4b4e52;background-color:rgb(179, 188, 194); }
 
 .multiply { grid-area: multiply;color:black;
-    border: 3px solid #ccc;background-color:rgb(179, 188, 194);}
+    border: 2px solid #4b4e52;background-color:rgb(179, 188, 194);}
 
 .divide { grid-area: divide;color:black;
-    border: 3px solid #ccc;background-color:rgb(179, 188, 194); }
+    border: 2px solid #4b4e52;background-color:rgb(179, 188, 194); }
 
 .seven { grid-area: seven; color:black;
-  border: 1px solid #ccc; }
+  border: 2px solid #4b4e52; }
 
 .eight { grid-area: eight;color:black;
-  border: 1px solid #ccc; }
+  border: 2px solid #4b4e52; }
 
 .nine { grid-area: nine;color:black;
-  border: 1px solid #ccc; }
+  border: 2px solid #4b4e52; }
 
 .four { grid-area: four;color:black;
-  border: 1px solid #ccc; }
+  border: 2px solid #4b4e52; }
 
 .five { grid-area: five;color:black;
-  border: 1px solid #ccc; }
+  border: 2px solid #4b4e52; }
 
 .six { grid-area: six;color:black;
-  border: 1px solid #ccc; }
+  border: 2px solid #4b4e52; }
 
 .one { grid-area: one;color:black;
-  border: 1px solid #ccc; }
+  border: 2px solid #4b4e52; }
 
 .two { grid-area: two;color:black;
-  border: 3px solid #ccc; }
+  border: 2px solid #4b4e52; }
 
 .three { grid-area: three;color:black;
-  border: 3px solid #ccc; }
+  border: 2px solid #4b4e52; }
 
 .equals { grid-area: equals;color:black;
-    border: 3px solid #ccc; background-color: rgb(247, 112, 119);
+    border: 2px solid #4b4e52; background-color: rgb(247, 112, 119);
     border-bottom-right-radius: 30px; }
 
 .zero { grid-area: zero;color:black;
-    border: 3px solid #ccc;
+    border: 2px solid #4b4e52;
     border-bottom-left-radius: 30px; }
 
 .point { grid-area: point;color:black;
-    border: 3px solid #ccc; }
+    border: 2px solid #4b4e52; }
 
 .allclear { grid-area: allclear;color:black;
-    border: 3px solid #ccc; }
+    border: 2px solid #4b4e52; }
+
 .calculator > * {
         display: flex;
         align-items: center;
